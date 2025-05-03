@@ -1,0 +1,9 @@
+[package]
+name = "CS128HONORPROJECT"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+regex = "1"
+clap = { version = "4", features = ["derive"] }
+rayon = "1.8"
